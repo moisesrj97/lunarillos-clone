@@ -1,0 +1,30 @@
+$tomato-color: #ff5959;
+$blue-color: #6199af;
+$yellow-color: #f6b436;
+$green-color: #9faa4d;
+$purple-color: #8e789d;
+$light-gray-color: #cfcfcf;
+$dark-gray-color: #b3b3b3;
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+@mixin centerRow() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin centerColumn() {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

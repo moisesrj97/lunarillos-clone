@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Moisés Rodríguez" />
+    <meta
+      name="description"
+      content="Todo lo que necesitas saber sobre repostería..."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="./images/burger_menu.png"
+        alt="burguer menu"
+        class="header__hamburguer"
+      />
+      <nav class="header__link-container">
+        <a
+          class="
+            header__single-link
+            header__single-link--expanded
+            header__single-link--tomato
+          "
+          href="#"
+          ><img src="images/maria-lunarillos.png" alt="enlace maria lunarillos"
+        /></a>
+        <a class="header__single-link header__single-link--blue" href="#"
+          ><img src="images/cucute.png" alt="enlace cucute"
+        /></a>
+        <a class="header__single-link header__single-link--yellow" href="#"
+          ><img src="images/mumuchu.png" alt="enlace mumuchu"
+        /></a>
+      </nav>
+      <div class="login-rrss-shop-container">
+        <section class="login">
+          <div class="login__image"></div>
+          <p class="login__text">ENTRA | REGÍSTRATE</p>
+        </section>
+        <section class="rrss">
+          <div class="rrss__link rrss__link--facebook"></div>
+          <div class="rrss__link rrss__link--twitter"></div>
+          <div class="rrss__link rrss__link--instagram"></div>
+          <div class="rrss__link rrss__link--pinterest"></div>
+          <div class="rrss__link rrss__link--youtube"></div>
+        </section>
+        <section class="shop-cart">
+          <div class="shop-cart__mobile-search-icon">
+            <div class="shop-cart__mobile-search-icon-img"></div>
+          </div>
+          <div class="shop-cart__icon-container">
+            <div class="shop-cart__icon"></div>
+          </div>
+          <div class="shop-cart__number"><p>0</p></div>
+        </section>
+      </div>
+    </header>
+    <main>
+      <section class="search-and-more">
+        <div class="search-and-more__new-container">
+          <div class="search-and-more__new-img"></div>
+          <p class="search-and-more__new-text">NOVEDADES</p>
+        </div>
+        <div class="search-and-more__promotions-container">
+          <div class="search-and-more__promotions-img"></div>
+          <p class="search-and-more__promotions-text">OFERTAS</p>
+        </div>
+        <div class="search-and-more__search-box">
+          <input
+            type="text"
+            class="search-and-more__search-input"
+            placeholder="¿QUÉ BUSCAS?"
+          />
+          <div class="search-and-more__search-icon-container">
+            <div class="search-and-more__search-icon"></div>
+          </div>
+        </div>
+      </section>
+      <section class="title-and-nav">
+        <hgroup>
+          <h1 class="title-and-nav__title">María Lunarillos</h1>
+          <picture>
+            <source
+              media="(max-width: 875px)"
+              srcset="./images/logo-small.svg"
+            />
+            <img
+              src="./images/logo.svg"
+              alt="logo de la web"
+              class="title-and-nav__title-pic"
+            />
+          </picture>
+        </hgroup>
+
+        <nav class="title-and-nav__nav">
+          <ul class="title-and-nav__nav-list">
+            <li class="title-and-nav__link">
+              <img
+                src="./images/links/utensiliosML.png"
+                alt="utensilios de cocina"
+                class="title-and-nav__link-img"
+              />
+              <p class="title-and-nav__link-title">UTENSILIOS</p>
+            </li>
+            <li class="title-and-nav__link">
+              <img
+                src="./images/links/magdalena.png"
+                alt="ingredientes de cocina"
+                class="title-and-nav__link-img"
+              />
+              <p class="title-and-nav__link-title">INGREDIENTES</p>
+            </li>
+            <li class="title-and-nav__link">
+              <img
+                src="./images/links/tarta-cumpleanos.png"
+                alt="utensilios para fiestas"
+                class="title-and-nav__link-img"
+              />
+              <p class="title-and-nav__link-title">FIESTAS</p>
+            </li>
+            <li class="title-and-nav__link">
+              <img
+                src="./images/links/delantal.png"
+                alt="nuestas marcas"
+                class="title-and-nav__link-img"
+              />
+              <p class="title-and-nav__link-title">MARCAS</p>
+            </li>
+            <li class="title-and-nav__link title-and-nav__link--red">
+              <img
+                src="./images/links/chat.png"
+                alt="blog del sitio"
+                class="title-and-nav__link-img"
+              />
+              <p class="title-and-nav__link-title">BLOG</p>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <section class="img-carrousel">
+        <div class="img-carrousel__img-container">
+          <img
+            src="./images/1080X600.png"
+            alt="foto de producto con ofertas"
+            class="img-carrousel__img"
+          />
+        </div>
+        <div class="img-carrousel__bullet-list">
+          <div class="img-carrousel__bullet"></div>
+          <div
+            class="img-carrousel__bullet img-carrousel__bullet--active"
+          ></div>
+          <div class="img-carrousel__bullet"></div>
+          <div class="img-carrousel__bullet"></div>
+          <div class="img-carrousel__bullet"></div>
+          <div class="img-carrousel__bullet"></div>
+          <div class="img-carrousel__bullet"></div>
+          <div class="img-carrousel__bullet"></div>
+          <div class="img-carrousel__bullet"></div>
+          <div class="img-carrousel__bullet"></div>
+        </div>
+      </section>
+      <section class="utils">
+        <img
+          src="./images/links/utensiliosML.png"
+          alt="utensilios de cocina"
+          class="utils__img"
+        />
+        <h2 class="utils__title">UTENSILIOS</h2>
+        <div class="collage">
+          <div
+            class="
+              collage__container
+              collage__container--long
+              collage__container--moldes
+            "
+          >
+            <div
+              class="collage__container-box collage__container-box--vertical"
+            >
+              <div class="collage__container-title">MOLDES DE REPOSTERÍA</div>
+              <div class="collage__container-text">
+                Moldes metálicos, de silicona o cerámica, de las mejores marcas.
+              </div>
+            </div>
+            <div class="collage__triangle-fix"></div>
+          </div>
+
+          <div class="collage__container collage__container--amasando">
+            <div class="collage__container-box">
+              <div class="collage__container-title">UTENSILIOS BÁSICOS</div>
+              <div class="collage__container-text">
+                Rodillos, liras, espátulas, tapetes, bandejas, rejillas, mangas
+                y boquillas... ¡Los imprescindibles!
+              </div>
+            </div>
+            <div class="collage__triangle-fix"></div>
+          </div>
+          <div class="collage__container collage__container--batidora">
+            <div class="collage__container-box">
+              <div class="collage__container-title">
+                PEQUEÑO ELECTRODOMÉSTICO
+              </div>
+              <div class="collage__container-text">
+                Robots KitchenAid, batidoras de varillas, panificadoras,
+                aerógrafos...
+              </div>
+            </div>
+            <div class="collage__triangle-fix"></div>
+          </div>
+        </div>
+        <div class="more-button"><p class="more-button__text">VER MÁS</p></div>
+      </section>
+      <section class="marcas">
+        <h2 class="marcas__title">NUESTAS MARCAS</h2>
+        <div class="marcas__container">
+          <img
+            class="marcas__image"
+            src="./images/marcas/Decora_1.png"
+            alt="Decora"
+          />
+          <img
+            class="marcas__image"
+            src="./images/marcas/Emile_Henry_2.png"
+            alt="Emile Henry"
+          />
+          <img
+            class="marcas__image"
+            src="./images/marcas/Funcakes_1.png"
+            alt="Funcakes"
+          />
+          <img
+            class="marcas__image"
+            src="./images/marcas/GreenGate_2.png"
+            alt="GreenGate"
+          />
+          <img
+            class="marcas__image"
+            src="./images/marcas/House_of_Marie_1.png"
+            alt="House of Marie"
+          />
+          <img
+            class="marcas__image"
+            src="./images/marcas/Joseph_Joseph_2.png"
+            alt="Joseph"
+          />
+          <img
+            class="marcas__image"
+            src="./images/marcas/Kilner_1.png"
+            alt="Kilner"
+          />
+          <img
+            class="marcas__image"
+            src="./images/marcas/KitchenAid_1.png"
+            alt="KitchenAid"
+          />
+          <img
+            class="marcas__image"
+            src="./images/marcas/KitchenCraft_2.png"
+            alt="KitchenCraft"
+          />
+          <img
+            class="marcas__image"
+            src="./images/marcas/Lekue_5.png"
+            alt="Lekue"
+          />
+          <img
+            class="marcas__image"
+            src="./images/marcas/LorAnn_1.png"
+            alt="LorAnn"
+          />
+          <img
+            class="marcas__image"
+            src="./images/marcas/Nordic_Ware_2.png"
+            alt="Nordic Ware"
+          />
+          <img
+            class="marcas__image"
+            src="./images/marcas/Rainbow_Dust_1.png"
+            alt="Rainbox"
+          />
+          <img
+            class="marcas__image"
+            src="./images/marcas/Silikomart_2.png"
+            alt="Silikoomart"
+          />
+          <img
+            class="marcas__image"
+            src="./images/marcas/Squires_Kitchen_2.png"
+            alt="Squires"
+          />
+          <img
+            class="marcas__image"
+            src="./images/marcas/Stadter_1.png"
+            alt="Stadter"
+          />
+          <img
+            class="marcas__image"
+            src="./images/marcas/Valrhona_2.png"
+            alt="Valrhona"
+          />
+          <img
+            class="marcas__image"
+            src="./images/marcas/Wilton_4.png"
+            alt="Wilton"
+          />
+        </div>
+        <div class="more-button"><p class="more-button__text">VER MÁS</p></div>
+      </section>
+    </main>
+    <aside class="trust-mark">
+      <img
+        src="./images/trustmark_120x120.png"
+        alt="trustmark"
+        class="trust-mark__image"
+      />
+      <h2 class="trust-mark__title">Protección al comprador</h2>
+      <p class="trust-mark__stars">⭐⭐⭐⭐⭐</p>
+      <p class="trust-mark__title">Excelente</p>
+      <p class="trust-mark__score"><strong>4.91</strong>/5.00</p>
+    </aside>
+    <footer class="footer">
+      <section class="ship-and-payment">
+        <div class="ship-and-payment__container">
+          <div
+            class="ship-and-payment__image ship-and-payment__image--truck"
+          ></div>
+          <div class="ship-and-payment__title">ENVÍO GRATIS</div>
+          <div class="ship-and-payment__text">PEDIDOS SUPERIORES A 49€</div>
+        </div>
+        <div class="ship-and-payment__container">
+          <div
+            class="ship-and-payment__image ship-and-payment__image--clock"
+          ></div>
+          <div class="ship-and-payment__title">ENVÍO 24-48 HORAS</div>
+          <div class="ship-and-payment__text">
+            HAZ TU PEDIDO ANTES DE LAS 18:00H
+          </div>
+        </div>
+        <div class="ship-and-payment__container">
+          <div
+            class="ship-and-payment__image ship-and-payment__image--envelope"
+          ></div>
+          <div class="ship-and-payment__title">DEVOLUCIONES</div>
+          <div class="ship-and-payment__text">
+            30 DÍAS PARA DEVOLVER TU COMPRA
+          </div>
+        </div>
+        <div class="ship-and-payment__container">
+          <div
+            class="ship-and-payment__image ship-and-payment__image--card"
+          ></div>
+          <div class="ship-and-payment__title">CONTRA REMBOLSO</div>
+          <div class="ship-and-payment__text">SIN COMISIÓN</div>
+        </div>
+      </section>
+      <section class="follow">
+        <div class="follow__links">
+          <h2 class="follow__links-title">SÍGUENOS</h2>
+          <div class="follow__links-links-container">
+            <div class="follow__links-link follow__links-link--facebook"></div>
+            <div class="follow__links-link follow__links-link--twitter"></div>
+            <div class="follow__links-link follow__links-link--instagram"></div>
+            <div class="follow__links-link follow__links-link--pinterest"></div>
+            <div class="follow__links-link follow__links-link--youtube"></div>
+          </div>
+        </div>
+        <div class="follow__mail-list">
+          <h2 class="follow__mail-list-title">
+            RECIBE LAS NOVEDADES EN TU E-MAIL
+          </h2>
+          <form action="#" class="follow__mail-list-form">
+            <div>
+              <input
+                id="mail"
+                type="email"
+                class="follow__mail-list-input-text"
+              />
+              <input
+                type="submit"
+                value="SUSCRÍBETE >"
+                class="follow__mail-list-input-submit"
+              />
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="terms"
+                class="follow__mail-list-input-checkbox"
+              />
+              <label for="terms" class="follow__mail-list-input-checkbox-label"
+                >Acepto la política de privacidad</label
+              >
+            </div>
+          </form>
+        </div>
+
+        <div class="follow__pages">
+          <div class="follow__pages-container">
+            <img
+              class="follow__pages-icon"
+              src="./images/circles/circle-envelope.svg"
+              alt="envelope"
+            />
+            <p class="follow__pages-text">CONTACTO</p>
+          </div>
+          <div class="follow__pages-container">
+            <img
+              class="follow__pages-icon"
+              src="./images/circles/i-circle.svg"
+              alt="info"
+            />
+            <p class="follow__pages-text">SOBRE NOSOTROS</p>
+          </div>
+          <div class="follow__pages-container">
+            <img
+              class="follow__pages-icon"
+              src="./images/circles/circle-cart.svg"
+              alt="cart"
+            />
+            <p class="follow__pages-text">CONDICIONES DE VENTA</p>
+          </div>
+        </div>
+      </section>
+      <address class="address">
+        <p class="address__text">Copyright ©2021 María Lunarillos</p>
+      </address>
+    </footer>
+  </body>
+</html>

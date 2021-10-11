@@ -11,7 +11,7 @@ body {
 .header {
   max-width: 100%;
   height: 50px;
-  background-color: white;
+  background-color: #f8f8f8;
   overflow: visible;
   display: flex;
   justify-content: space-around;
@@ -257,7 +257,7 @@ body {
   align-items: center;
   width: 100px;
   height: 100px;
-  background-color: #cfcfcf;
+  background-color: #f8f8f8;
   margin: 3px;
   cursor: pointer;
 }
@@ -269,7 +269,7 @@ body {
   margin-left: 40px;
 }
 .title-and-nav__link--red:hover {
-  background-color: #cfcfcf;
+  background-color: #f8f8f8;
 }
 .title-and-nav__link-img {
   height: 80px;

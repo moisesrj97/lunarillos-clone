@@ -3,7 +3,7 @@
 .header {
   max-width: 100%;
   height: 50px;
-  background-color: white;
+  background-color: basics.$gray-background;
 
   overflow: visible;
   display: flex;
@@ -221,7 +221,7 @@
     @include basics.centerColumn();
     width: 100px;
     height: 100px;
-    background-color: basics.$light-gray-color;
+    background-color: basics.$gray-background;
     margin: 3px;
     cursor: pointer;
     &:hover {
@@ -231,7 +231,7 @@
       background-color: basics.$tomato-color;
       margin-left: 40px;
       &:hover {
-        background-color: basics.$light-gray-color;
+        background-color: basics.$gray-background;
       }
     }
   }

@@ -524,19 +524,19 @@ body {
 }
 .ship-and-payment__image--truck {
   -webkit-mask: url("./images/footer/camion.svg") no-repeat center;
-  mask: url(camion.svg) no-repeat center;
+  mask: url("./images/footer/camion.svg") no-repeat center;
 }
 .ship-and-payment__image--clock {
   -webkit-mask: url("./images/footer/clock.svg") no-repeat center;
-  mask: url(camion.svg) no-repeat center;
+  mask: url("./images/footer/clock.svg") no-repeat center;
 }
 .ship-and-payment__image--envelope {
   -webkit-mask: url("./images/footer/envelope.svg") no-repeat center;
-  mask: url(camion.svg) no-repeat center;
+  mask: url("./images/footer/envelope.svg") no-repeat center;
 }
 .ship-and-payment__image--card {
   -webkit-mask: url("./images/footer/card.svg") no-repeat center;
-  mask: url(camion.svg) no-repeat center;
+  mask: url("./images/footer/card.svg") no-repeat center;
 }
 
 .follow {
@@ -577,23 +577,23 @@ body {
 }
 .follow__links-link--facebook {
   -webkit-mask: url("./images/tags/facebook-tag.svg") no-repeat center;
-  mask: url(camion.svg) no-repeat center;
+  mask: url("./images/tags/facebook-tag.svg") no-repeat center;
 }
 .follow__links-link--twitter {
   -webkit-mask: url("./images/tags/instagram-tag.svg") no-repeat center;
-  mask: url(camion.svg) no-repeat center;
+  mask: url("./images/tags/instagram-tag.svg") no-repeat center;
 }
 .follow__links-link--instagram {
   -webkit-mask: url("./images/tags/pinteres-tag.svg") no-repeat center;
-  mask: url(camion.svg) no-repeat center;
+  mask: url("./images/tags/pinteres-tag.svg") no-repeat center;
 }
 .follow__links-link--pinterest {
   -webkit-mask: url("./images/tags/twitter-tag.svg") no-repeat center;
-  mask: url(camion.svg) no-repeat center;
+  mask: url("./images/tags/twitter-tag.svg") no-repeat center;
 }
 .follow__links-link--youtube {
   -webkit-mask: url("./images/tags/youtube-tag.svg") no-repeat center;
-  mask: url(camion.svg) no-repeat center;
+  mask: url("./images/tags/youtube-tag.svg") no-repeat center;
 }
 .follow__mail-list {
   display: flex;
